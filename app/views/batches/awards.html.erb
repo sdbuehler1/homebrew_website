@@ -1,0 +1,55 @@
+<table width="100%">
+  <tr>
+    <td>
+      <div class="banner">
+      <h1>Buehler's Best</h1>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="topnav" id="myTopnav">
+      <a href="/" >HOME</a>
+      <a href="/batches">BATCHES</a>
+      <a href="/newbatch">NEW BATCH</a>
+      <a href="/ontap" >ON TAP</a>
+      <a href="/awards" class="active">AWARDS</a>
+      <a href="/login">LOGIN</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<table id="batches">
+  <tr>
+    <th>Batch #</th>
+    <th>Name</th>
+    <th>Brew</br>Date</th>
+    <th>Bottle</br>Date</th>
+    <th>Age</br>(Weeks)</th>
+    <th>OG</th>
+    <th>FG</th>
+    <th>ABV</th>
+    <th>IBUs</th>
+    <th>SRM</th>
+    <th>Awards</th>
+  </tr>
+ 
+  <% @batches.each do |batch| %>
+
+    <tr onclick="location.href = 'batches/<%= batch.id %>'">
+      <td><%= batch.id %></td>
+      <td><%= batch.name %></td>
+      <td><%= batch.brew_date.strftime("%m/%d/%y") %></td>
+      <td><%= batch.bottle_date.strftime("%m/%d/%y") %></td>
+      <td><%= get_age(batch.bottle_date) %></td>
+      <td><%= batch.og %></td>
+      <td><%= batch.fg %></td>
+      <td><%= get_abv(batch.og, batch.fg) %>%</td>
+      <td><%= batch.ibu %></td>
+      <td><%= batch.srm %></td>
+      <td><%= batch.awards %></td>
+    </tr>
+  <% end %>
+</table>

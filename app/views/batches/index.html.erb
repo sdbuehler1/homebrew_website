@@ -1,0 +1,57 @@
+<table width="100%">
+  <tr>
+    <td>
+      <div class="banner">
+      <h1>Buehler's Best</h1>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="topnav" id="myTopnav">
+      <a href="/" >HOME</a>
+      <a href="/batches" class="active">BATCHES</a>
+      <a href="/newbatch">NEW BATCH</a>
+      <a href="/ontap">ON TAP</a>
+      <a href="/awards">AWARDS</a>
+      <a href="/login">LOGIN</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<table id="batches">
+  <tr>
+    <th><%= sortable "id", "Id" %></th>
+    <th><%= sortable "name", "Name" %></th>
+    <th><%= sortable "brew_date", "Brew Date" %></th>
+    <th><%= sortable "bottle_date", "Bottle Date" %></th>
+    <th>Age (Weeks)</th>
+    <th><%= sortable "og", "OG" %></th>
+    <th><%= sortable "fg", "FG" %></th>
+    <th>ABV</th>
+    <th><%= sortable "ibu", "IBUs" %></th>
+    <th><%= sortable "srm", "SRM" %></th>
+    <th><%= sortable "volume", "Volume (Gals)" %></th>
+    <th><%= sortable "bottles", "Bottles" %></th>
+  </tr>
+ 
+  <% @batches.each do |batch| %>
+
+    <tr onclick="location.href = 'batches/<%= batch.id %>'">
+      <td><%= batch.id %></td>
+      <td><%= batch.name %></td>
+      <td><%= batch.brew_date.strftime("%m/%d/%y") %></td>
+      <td><%= batch.bottle_date.strftime("%m/%d/%y") %></td>
+      <td><%= get_age(batch.bottle_date) %></td>
+      <td><%= batch.og %></td>
+      <td><%= batch.fg %></td>
+      <td><%= get_abv(batch.og, batch.fg) %>%</td>
+      <td><%= batch.ibu %></td>
+      <td><%= batch.srm %></td>
+      <td><%= batch.volume %></td>
+      <td><%= batch.bottles %></td>
+    </tr>
+  <% end %>
+</table>

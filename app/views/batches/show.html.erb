@@ -1,0 +1,94 @@
+<table width="100%">
+  <tr>
+    <td>
+      <div class="banner">
+      <h1>Buehler's Best</h1>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="topnav" id="myTopnav">
+      <a href="/" >HOME</a>
+      <a href="/batches" class="active">BATCHES</a>
+      <a href="/createbatch">NEW BATCH</a>
+      <a href="/ontap">ON TAP</a>
+      <a href="/awards">AWARDS</a>
+      <a href="/login">LOGIN</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<table id="batch">
+  <tr>
+    <td>Batch #</td>
+    <td><%= @batch.id %></td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td><%= @batch.name %></td>
+  </tr>
+  <tr>
+    <td>Brew Date</td>
+    <td><%= @batch.brew_date.strftime("%m/%d/%y") %></td>
+  </tr>
+  <tr>    
+    <td>Bottle Date</td>
+    <td><%= @batch.bottle_date.strftime("%m/%d/%y") %></td>
+  </tr>
+  <tr> 
+    <td>Age (Weeks)</td>
+    <td><%= get_age(@batch.bottle_date) %></td>
+  </tr>
+  <tr>    
+    <td>OG</td>
+    <td><%= @batch.og %></td>
+  </tr>
+  <tr> 
+    <td>FG</td>
+    <td><%= @batch.fg %></td>
+  </tr>
+  <tr>    
+    <td>ABV</td>
+    <td><%= get_abv(@batch.og, @batch.fg) %>%</td>
+  </tr>
+  <tr> 
+    <td>IBUs</td>
+    <td><%= @batch.ibu %></td>
+  </tr>
+  <tr>    
+    <td>SRM</td>
+    <td><%= @batch.srm %></td>
+  </tr>
+  <tr>     
+    <td>Volume (Gallons)</td>
+    <td><%= @batch.volume %></td>
+  </tr>
+  <tr>    
+    <td>Bottles</td>
+    <td><%= @batch.bottles %></td>
+  </tr>
+  <tr>    
+    <td>Bottle Conditioned</td>
+    <td><%= @batch.bottle_conditioned %></td>
+  </tr>
+  <tr>    
+    <td>Notes</td>
+    <td><%= @batch.notes %></td>
+  </tr>
+  <tr>    
+    <td>Description</td>
+    <td><%= @batch.description %></td>
+  </tr>
+  <tr>    
+    <td>Awards</td>
+    <td><%= @batch.awards %></td>
+  </tr>
+  <tr>    
+    <td>On Tap</td>
+    <td><%= @batch.ontap %></td>
+  </tr>
+</table>
+

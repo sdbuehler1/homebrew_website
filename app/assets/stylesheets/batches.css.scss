@@ -1,0 +1,38 @@
+// Place all the styles related to the batches controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#batches #batch {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#batches td, #batch td, #batches th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#batches tr:nth-child(even){background-color: #f2f2f2;}
+#batch td:nth-child(odd){background-color: #ddd;}
+
+#batches tr:hover {background-color: #ddd;}
+
+#batches th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ddd;
+    color: black;
+}
+#batches th .current {
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+#batches th .asc {
+  background-image: url(/assets/up_arrow.gif);
+}
+
+#batches th .desc {
+  background-image: url(/assets/down_arrow.gif);
+}

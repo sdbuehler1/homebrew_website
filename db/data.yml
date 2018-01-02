@@ -1,0 +1,1248 @@
+
+---
+batches:
+  columns:
+  - id
+  - name
+  - brew_date
+  - bottle_date
+  - og
+  - fg
+  - ibu
+  - srm
+  - volume
+  - bottles
+  - bottle_conditioned
+  - notes
+  - description
+  - awards
+  - ontap
+  records: 
+  - - 1
+    - Pumpk-Ein Ale
+    - 2013-08-28
+    - 2013-09-16
+    - 1.066
+    - 1.01
+    - 28.0
+    - 
+    - 1.0
+    - 7
+    - 'yes'
+    - very strong, a little on the bitter side, could probably do with just pumpkin
+      spice
+    - 
+    - 
+    - 'no'
+  - - 2
+    - Vanilla Porter
+    - 2013-08-29
+    - 2013-09-22
+    - 1.076
+    - 1.036
+    - 25.0
+    - 
+    - 1.0
+    - 7
+    - 'yes'
+    - excellent vanilla aroma with good sweetness but will be hard to reproduce since
+      this batch didnt not ferment fully
+    - 
+    - 
+    - 'no'
+  - - 3
+    - Ale to the Redskins Irish Red
+    - 2013-09-01
+    - 2013-09-16
+    - 1.05
+    - 1.008
+    - 0.0
+    - 
+    - 1.0
+    - 8
+    - 'yes'
+    - extract ale, nothing special
+    - 
+    - 
+    - 'no'
+  - - 4
+    - Golden Honey Wheat
+    - 2013-09-07
+    - 2013-09-22
+    - 1.055
+    - 1.008
+    - 0.0
+    - 
+    - 1.25
+    - 10
+    - 'yes'
+    - too much honey adds off flavors, should use 8 oz or less next time
+    - 
+    - 
+    - 'no'
+  - - 5
+    - Winchester Brown Ale
+    - 2013-09-08
+    - 2013-09-22
+    - 1.05
+    - 1.01
+    - 32.7
+    - 
+    - 1.25
+    - 10
+    - 'yes'
+    - decent tasting, very similar to NewCastle brown ale
+    - 
+    - 
+    - 'no'
+  - - 6
+    - Oktoberfeast
+    - 2013-09-12
+    - 2013-09-25
+    - 1.043
+    - 1.01
+    - 21.8
+    - 
+    - 1.25
+    - 10
+    - 'yes'
+    - very weak, batch was not boiled down enough
+    - 
+    - 
+    - 'no'
+  - - 7
+    - Vanilla Porter II
+    - 2013-09-18
+    - 2013-10-02
+    - 1.083
+    - 1.019
+    - 25.0
+    - 
+    - 1.25
+    - 9
+    - 'yes'
+    - ''
+    - 
+    - 
+    - 'no'
+  - - 8
+    - Cranberry Wheat
+    - 2013-09-25
+    - 2013-10-09
+    - 1.066
+    - 1.012
+    - 0.0
+    - 
+    - 1.25
+    - 9
+    - 'yes'
+    - a little on the bitter, sour side.  Could have used some maple or honey to sweeten
+      it up a bit, great color though
+    - 
+    - 
+    - 'no'
+  - - 9
+    - Cascade Pale Ale
+    - 2013-09-29
+    - 2013-10-13
+    - 1.05
+    - 1.006
+    - 40.1
+    - 
+    - 1.25
+    - 9
+    - 'yes'
+    - excellent taste and aroma, nice light color for a pale ale and very drinkable
+    - 
+    - 
+    - 'no'
+  - - 10
+    - Congressional Fail Ale
+    - 2013-10-03
+    - 2013-10-17
+    - 1.05
+    - 1.007
+    - 25.4
+    - 
+    - 1.25
+    - 11
+    - 'yes'
+    - darker pale ale color with great aroma and grapefruity hoppy flavor
+    - 
+    - 
+    - 'no'
+  - - 11
+    - Chocolate Espresso Stout
+    - 2013-10-10
+    - 2013-11-04
+    - 1.078
+    - 1.019
+    - 41.9
+    - 
+    - 1.25
+    - 10
+    - 'yes'
+    - good blend of chocolate and coffee flavor, slightly bitter with no sweetness
+      just like dark chocolate, massive head
+    - 
+    - 
+    - 'no'
+  - - 12
+    - Oktoberfeast II
+    - 2013-10-16
+    - 2013-11-01
+    - 1.053
+    - 1.009
+    - 21.8
+    - 
+    - 1.25
+    - 9
+    - 'yes'
+    - great malty flavor with mild hops bitterness and aroma, very drinkable
+    - Oktoberfest style pale ale with malty flavor and mild hop bitterness and aroma
+    - 
+    - 'no'
+  - - 13
+    - Rudolph's Revenge
+    - 2013-11-05
+    - 2013-11-27
+    - 1.067
+    - 1.01
+    - 32.8
+    - 
+    - 1.25
+    - 9
+    - 'yes'
+    - funky flavor, not a very good recipe
+    - 
+    - 
+    - 'no'
+  - - 14
+    - Golden Honey Wheat II
+    - 2013-11-06
+    - 2013-11-20
+    - 1.049
+    - 1.007
+    - 29.5
+    - 
+    - 1.25
+    - 10
+    - 'yes'
+    - great balance of centennial and cascade hops, amount of honey is perfect, very
+      smooth and goes down fast at 2 weeks, after 1 month the taste seems funky
+    - 
+    - 
+    - 'no'
+  - - 15
+    - Hoppy New Year
+    - 2013-11-08
+    - 2013-11-30
+    - 1.054
+    - 1.008
+    - 25.4
+    - 
+    - 1.25
+    - 9
+    - 'yes'
+    - ''
+    - 
+    - 
+    - 'no'
+  - - 16
+    - EIN-PA
+    - 2013-11-30
+    - 2013-12-18
+    - 1.049
+    - 1.008
+    - 40.3
+    - 
+    - 1.5
+    - 13
+    - 'yes'
+    - very fruity and piney aroma, best smelling beer yet, smooth taste
+    - 
+    - 
+    - 'no'
+  - - 17
+    - Maple Porter
+    - 2013-12-08
+    - 2013-12-29
+    - 1.058
+    - 1.013
+    - 45.5
+    - 
+    - 1.5
+    - 13
+    - 'yes'
+    - traditional porter taste with a stronger bitterness as it should be for a robust
+      porter, maple is very subtle
+    - Robust porter fermented with maple syrup
+    - 
+    - 'no'
+  - - 18
+    - Borderline IPA II
+    - 2013-12-27
+    - 2014-01-18
+    - 1.063
+    - 1.012
+    - 63.5
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - (Amarillo &amp; Simcoe) malty mouthy feel with a good balance of hops, amarillo
+      and simcoe is a great combination
+    - India Pale Ale with a heavy malt flavor and dry hopped with Amarillo and Simcoe
+    - 
+    - 'no'
+  - - 19
+    - Mosaic Amber Ale
+    - 2014-01-08
+    - 2014-01-20
+    - 1.05
+    - 1.011
+    - 33.2
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - smooth tasting, but mosaic is probably not complex enough to stand on its own,
+      tastes similar to two hearted ale
+    - Irish amber ale brewed and dry hopped exclusively with Mosaic.  Very floral/herbal.
+    - 
+    - 'no'
+  - - 20
+    - Power of 10 - Double IPA
+    - 2014-01-19
+    - 2014-02-17
+    - 1.089
+    - 1.016
+    - 100.0
+    - 
+    - 1.5
+    - 10
+    - 'yes'
+    - aroma was very week, dry hop needed to be doubled or tripled
+    - experimental double India Pale Ale, heavy malt flavor, high bitterness, and
+      light dry hop.
+    - 
+    - 'no'
+  - - 21
+    - Citrus IPA
+    - 2014-02-01
+    - 2014-02-19
+    - 1.061
+    - 1.009
+    - 60.3
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - citra and cascade are a nice combination, this beer needs to be drunk with in
+      the first 2 months as the hops flavor really diminishes
+    - India Pale Ale with medium malt flavor dry hopped with Citra and Cascade for
+      a heavy citrus and fruity flavor/aroma.
+    - 
+    - 'no'
+  - - 22
+    - Toasted Amber Ale
+    - 2014-02-17
+    - 2014-03-03
+    - 1.057
+    - 1.014
+    - 35.6
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - (Mosaic &amp; Centennial) The addition of centennial and biscuit malt is a weird
+      combination, the beer has a heinekin skunky taste to it, could also be because
+      the 04 English yeast was used
+    - 
+    - 
+    - 'no'
+  - - 23
+    - Chocolate Espresso Stout II
+    - 2014-03-01
+    - 2014-03-22
+    - 1.069
+    - 1.014
+    - 42.4
+    - 
+    - 1.5
+    - 11
+    - 'yes'
+    - excellent coffee taste and aroma, which is probably attributed to the espresso
+      being added right before bottling, carbonation of 2.2 is too low, should have
+      gone with 2.4 vols
+    - 
+    - 
+    - 'no'
+  - - 24
+    - Nugget Nectire
+    - 2014-03-03
+    - 2014-03-24
+    - 1.07
+    - 1.014
+    - 93.0
+    - 
+    - 1.5
+    - 11
+    - 'yes'
+    - decent taste but it not very similar to nugget nectar, the grain bill needs
+      to be adjusted and it probably needs more nugget hops and aroma
+    - Clone based on Troegs Nugget Nectar
+    - 
+    - 'no'
+  - - 25
+    - Golden Pale Ale
+    - 2014-03-21
+    - 2014-04-05
+    - 1.053
+    - 1.006
+    - 38.2
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - very fruity aroma and taste, carbonation was flat with no head retention
+    - 
+    - 
+    - 'no'
+  - - 26
+    - Blonde IPA
+    - 2014-03-24
+    - 2014-04-21
+    - 1.061
+    - 1.008
+    - 55.3
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - smooth and clean taste not very much aroma or hop flavor
+    - Smooth and clean tasting India Pale Ale with medium bitterness and dry hopped
+      lightly with Cascade
+    - 
+    - 'no'
+  - - 27
+    - Honey Wheat Ale
+    - 2014-03-28
+    - 2014-04-16
+    - 1.053
+    - 1.008
+    - 29.1
+    - 
+    - 1.5
+    - 13
+    - 'yes'
+    - a little on the bitter side, could use more aroma hops and less bittering, needs
+      more citrus flavor/aroma too, after 4 weeks flavor improved greatly
+    - Light colored wheat pale ale brewed with honey malt and dry hopped with Citra
+      and Centennial
+    - 
+    - 'no'
+  - - 28
+    - Equilibrium IPA
+    - 2014-03-31
+    - 2014-04-27
+    - 1.061
+    - 1.007
+    - 66.7
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - decent flavor and aroma but too much crystal malt, still a tasty brew
+    - India Pale Ale dry hopped with Simcoe and Cascade
+    - 
+    - 'no'
+  - - 29
+    - Sensation IPA
+    - 2014-04-05
+    - 2014-04-27
+    - 1.068
+    - 1.011
+    - 64.3
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - excellent all-around taste, malty, fruity, and floral with a great initial aroma,
+      lost aroma after 2 weeks, probably because leaf was used
+    - 
+    - 
+    - 'no'
+  - - 30
+    - Maple Porter II
+    - 2014-05-24
+    - 2014-06-11
+    - 1.067
+    - 1.022
+    - 34.5
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - funky taste from the milk sugar, maple flavor is still too subtle
+    - Sweet robust porter bottle conditioned with maple syrup
+    - 
+    - 'no'
+  - - 31
+    - Golden Pale Ale II
+    - 2014-05-26
+    - 2014-06-11
+    - 1.054
+    - 1.007
+    - 38.3
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - great aroma and taste, very drinkable
+    - 
+    - 
+    - 'no'
+  - - 32
+    - Moonlight Cascadian Dark Ale
+    - 2014-06-08
+    - 2014-06-28
+    - 1.061
+    - 1.013
+    - 72.4
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - good tasting grain bill with balanced bitterness but the aroma needs to be much
+      stronger and could probably be doubled for the dry hop - 2oz
+    - Dark India pale ale with roasted and chocolate malt flavor, lightly dry hopped
+      with Centennial and Columbus
+    - 
+    - 'no'
+  - - 33
+    - Sensation IPA II
+    - 2014-06-22
+    - 2014-07-12
+    - 1.06
+    - 1.007
+    - 62.6
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - ''
+    - Light colored India Pale Ale with low malt taste, medium bitterness, dry hopped
+      with Cascade and Amarillo Gold
+    - 
+    - 'no'
+  - - 34
+    - Honey Wheat Pale Ale
+    - 2014-07-04
+    - 2014-07-21
+    - 1.048
+    - 1.007
+    - 30.0
+    - 
+    - 5.0
+    - 0
+    - 'no'
+    - Very subdued honey flavor, either need to add more honey malt, or reduce the
+      hop bitterness to allow the honey flavor/aroma to come through.  Might benefit
+      from some cascade hops.
+    - Light colored wheat pale ale brewed with honey malt and dry hopped with Citra
+      and Centennial
+    - 
+    - 'no'
+  - - 35
+    - Golden Pale Ale III
+    - 2014-07-25
+    - 2014-08-08
+    - 1.056
+    - 1.007
+    - 38.2
+    - 
+    - 5.0
+    - 0
+    - 'no'
+    - great aroma, light golden color, abv is a bit high for a pale ale but excellent
+      overall taste
+    - Light golden color pale ale with medium malt flavor, dry hopped with Citra and
+      Simcoe for a strong citrus and floral hop aroma with medium bitterness
+    - 
+    - 'no'
+  - - 36
+    - Moonlight Cascadian Dark Ale II
+    - 2014-08-01
+    - 2014-08-22
+    - 1.061
+    - 1.013
+    - 72.4
+    - 
+    - 1.5
+    - 12
+    - 'yes'
+    - ''
+    - Dark India pale ale with roasted and chocolate malt flavor, generously dry hopped
+      with Centennial and Columbus
+    - 
+    - 'no'
+  - - 37
+    - Imperial Vanilla Porter
+    - 2014-08-03
+    - 2014-08-30
+    - 1.088
+    - 1.011
+    - 35.0
+    - 0.0
+    - 5.0
+    - 0
+    - 'no'
+    - Best vanilla porter batch yet - beer aged extremely well at 8 months +
+    - Strong porter with great vanilla aroma and flavor
+    - "2nd Place: spice beer - Back Room Brewery 2014,\r\n1st Place: spice beer -
+      Hop Blossom 2015,\r\n3rd Place: Best of Show - Hop Blossom 2015"
+    - 'no'
+  - - 38
+    - Holy Mole
+    - 2014-08-23
+    - 2014-09-17
+    - 1.055
+    - 1.007
+    - 21.0
+    - 
+    - 5.0
+    - 0
+    - 'yes'
+    - Iron Brewer competition beer with Habanero pepper as the secret ingredient.  One
+      Habanero in secondary for 3 days was plenty of heat, could have even done less.
+    - Brown Porter spiced with Habanero, Cayenne, Anchos, Vanilla Bean, Cinnamon Stick,
+      and Cocoa Nibs
+    - 
+    - 'no'
+  - - 39
+    - West Coast IPA
+    - 2014-09-07
+    - 2014-09-24
+    - 1.064
+    - 1.011
+    - 61.0
+    - 9.1
+    - 5.0
+    - 0
+    - 'no'
+    - Great aroma and hop taste.  Not overly bitter considering 12 oz of hops was
+      used.
+    - Golden yellow India Pale Ale loaded up with lots of late additions of Columbus,
+      Cascade, and Centennial Hops.  Dry Hopped with Cascade, Centennial, Amarillo
+      Gold, Simcoe, and Columbus.
+    - 
+    - 'no'
+  - - 40
+    - Moonlight Cascadian Dark Ale III
+    - 2014-10-05
+    - 2014-10-25
+    - 1.063
+    - 1.012
+    - 70.0
+    - 
+    - 5.0
+    - 0
+    - 'no'
+    - Used .5 oz home grown Centennial during hop stand (wort cooled to 180)
+    - Dark India pale ale with roasted and chocolate malt flavor, generously dry hopped
+      with Centennial and Columbus
+    - 
+    - 'no'
+  - - 41
+    - Red Hoptober Rye IPA
+    - 2014-10-26
+    - 2014-11-16
+    - 1.062
+    - 1.007
+    - 73.6
+    - 
+    - 5.0
+    - 0
+    - 'no'
+    - The color is more brown than red.   Additional Carared or Crystal Malts are
+      need to deepen the reddish color.  More wheat malt could be used including more
+      rye.  Hop aroma and flavor is good.
+    - Medium spicy IPA made with Rye and Wheat malts.  Hopped and dry hopped primarily
+      with Cascade along with some Amarillo Gold and Chinook.
+    - 
+    - 'no'
+  - - 42
+    - Oatmeal Stout
+    - 2014-11-29
+    - 2014-12-17
+    - 1.048
+    - 1.008
+    - 28.0
+    - 
+    - 5.0
+    - 0
+    - 'no'
+    - First attempt at oatmeal stout.  Oatmeal creaminess was very subdued and the
+      style is more like a dry stout.
+    - oatmeal stout with mild creaminess.
+    - 
+    - 'no'
+  - - 43
+    - Oatmeal Stout II
+    - 2014-12-21
+    - 2015-01-02
+    - 1.056
+    - 1.012
+    - 33.0
+    - 
+    - 5.0
+    - 0
+    - 'no'
+    - Great aroma with decent body and creamy head
+    - Medium dark oatmeal stout made with flaked oats, chocolate, victory, crystal,
+      and roasted barley malts, hopped with East Kent Goldings.
+    - 
+    - 'no'
+  - - 44
+    - Golden Pale Ale IV
+    - 2015-01-11
+    - 2015-01-31
+    - 1.054
+    - 1.006
+    - 43.0
+    - 
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - 
+    - 'no'
+  - - 45
+    - Nugget Blizzard
+    - 2015-02-21
+    - 2015-03-18
+    - 1.06
+    - 1.006
+    - 93.0
+    - 9.7
+    - 5.0
+    - 0
+    - 'no'
+    - Excellent aroma but a bit on the bitter side.  IBUs should be reduced to the
+      upper 70s or lower 80s.  Malt, hops,and color do not reflect actual nugget nectar
+      very well but a good tasting beer - placed 2nd in the Hop Blossom 2015 IPA category.
+    - An attempt at a Nugget Nectar clone but misses the mark.  A very good tasting
+      IPA though.
+    - '2nd Place: IPA - Hop Blossom 2015'
+    - 'no'
+  - - 46
+    - Raspberry Porter
+    - 2015-03-21
+    - 2015-04-10
+    - 1.062
+    - 1.012
+    - 32.0
+    - 34.8
+    - 5.0
+    - 0
+    - 'no'
+    - Excellent balanced Porter with raspberry tart finish
+    - Robust Porter fermented with raspberries.
+    - '1st Place: fruit beer - Hop Blossom 2015'
+    - 'no'
+  - - 47
+    - Vienna Simcoe Smash Ale
+    - 2015-05-09
+    - 2015-05-31
+    - 1.05
+    - 1.007
+    - 31.0
+    - 5.3
+    - 5.0
+    - 0
+    - 'no'
+    - Very hoppy American ale / session IPA - home brew club experiment.  Excellent
+      aroma and smooth taste.
+    - Smash beer made with Vienna malt and Simcoe hops
+    - 
+    - 'no'
+  - - 48
+    - Red Rye IPA II
+    - 2015-08-16
+    - 2015-09-01
+    - 1.054
+    - 1.009
+    - 55.0
+    - 17.6
+    - 5.0
+    - 0
+    - 'no'
+    - 2nd attempt at making a Red Rye IPA.  Efficiency was very low - 62%, may have
+      affected color.  Seemed overly bitter and there was probably too much rye in
+      the batch.  The keg also had too much hops sludge in the bottom when it was
+      emptied.
+    - Medium spicy IPA made with Rye and Wheat malts.  Hopped and dry hopped primarily
+      with Cascade along with some Amarillo Gold and Chinook.
+    - 
+    - 'no'
+  - - 49
+    - Wicked Brown Ale
+    - 2015-08-30
+    - 2015-09-25
+    - 1.048
+    - 1.007
+    - 29.0
+    - 19.0
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - American brown ale brewed and dry hopped with Brewers Gold hops - clone of Petes
+      Wicked Ale
+    - 
+    - 'no'
+  - - 50
+    - Blackbird SR 171
+    - 2015-09-13
+    - 2015-09-27
+    - 1.048
+    - 1.021
+    - 22.0
+    - 0.0
+    - 5.0
+    - 0
+    - 'no'
+    - Very smooth low alcohol milk stout. Coffee flavor was good at first but got
+      too strong after a few weeks in the keg.  Would suggest using 2 cups next time
+      - 70 grams coffee cold pressed with 2 cups water
+    - Milk stout with cafe du monde cold pressed coffee
+    - 
+    - 'no'
+  - - 51
+    - Robust Porter
+    - 2015-11-08
+    - 2015-12-02
+    - 1.061
+    - 1.016
+    - 31.4
+    - 34.8
+    - 5.0
+    - 0
+    - 'no'
+    - Main suggestion for improvement is more body - higher mash temp.  Maybe try
+      156 mash temp next time.
+    - Rich chocolate Porter
+    - 'Honorable Mention: porter - Winter SVHG club competition 2015'
+    - 'no'
+  - - 52
+    - Pale Ale - Yeast experiment
+    - 2016-01-18
+    - 2016-01-30
+    - 1.042
+    - 1.006
+    - 31.0
+    - 6.9
+    - 5.0
+    - 0
+    - 'no'
+    - Yeast experiment for SVHG
+    - Pale ale with centennial hops and Wpl013 London Ale Yeast
+    - 
+    - 'no'
+  - - 53
+    - Wookey Jack
+    - 2016-01-31
+    - 2016-02-15
+    - 1.063
+    - 1.009
+    - 71.0
+    - 35.0
+    - 5.0
+    - 0
+    - 'no'
+    - Dark, creamy and medium roast with citrus hop aroma and flavor.
+    - Clone of Firestone Wookey Jack - Black IPA brewed with Magnum, Citra, and Amarillo
+      hops.  Dry hopped with Citra and Amarillo.
+    - '1st Place: specialty - Battle of Fredericksburg 2016'
+    - 'no'
+  - - 54
+    - Union Jack IPA clone
+    - 2016-02-16
+    - 2016-03-03
+    - 1.064
+    - 1.009
+    - 67.6
+    - 7.0
+    - 5.0
+    - 0
+    - 'no'
+    - First attempt at batch sparge with cooler mash tun and hot liquor tank.  Sparge
+      temp was way off, need to adjust about 10 degrees higher.
+    - ''
+    - 
+    - 'no'
+  - - 55
+    - Strawberries and Cream Ale
+    - 2016-02-28
+    - 2016-03-20
+    - 1.056
+    - 1.006
+    - 19.0
+    - 3.0
+    - 5.0
+    - 0
+    - 'no'
+    - Pinkish golden strawberry color with strong strawberry aroma.  Smooth and refreshing
+      with a good strawberry finish
+    - Cream ale fermented with real strawberries
+    - ''
+    - 'no'
+  - - 56
+    - Belgian Blonde
+    - 2016-03-07
+    - 2016-04-09
+    - 1.061
+    - 1.009
+    - 24.0
+    - 5.0
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - '1st Place: Strong Belgian Ale - Hop Blossom 2017'
+    - 'no'
+  - - 57
+    - Yum IPA
+    - 2016-04-10
+    - 2016-04-27
+    - 1.069
+    - 1.01
+    - 64.0
+    - 7.0
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'no'
+  - - 58
+    - Moonlight CDA (Wookey Jack II)
+    - 2016-04-25
+    - 2016-05-15
+    - 1.076
+    - 1.011
+    - 69.0
+    - 35.0
+    - 5.5
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'no'
+  - - 59
+    - Amarillo Wheat
+    - 2016-05-01
+    - 2016-05-18
+    - 1.043
+    - 1.011
+    - 31.9
+    - 4.3
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'no'
+  - - 60
+    - Grapefruit Sculpin
+    - 2016-08-07
+    - 2016-08-24
+    - 1.062
+    - 1.005
+    - 75.0
+    - 9.0
+    - 5.0
+    - 0
+    - 'no'
+    - IPA with grapefruit zest
+    - ''
+    - ''
+    - 'no'
+  - - 61
+    - Smoked Vanilla Porter
+    - 2016-09-10
+    - 2016-09-30
+    - 1.067
+    - 1.017
+    - 24.0
+    - 42.0
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - '2nd Place: SVHG Iron Brewer 2016'
+    - 'no'
+  - - 62
+    - Amarillo Wheat II (Indian Summer)
+    - 2016-09-24
+    - 2016-10-10
+    - 1.04
+    - 1.006
+    - 26.3
+    - 4.0
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'no'
+  - - 63
+    - Vienna Lager
+    - 2016-10-16
+    - 2016-11-11
+    - 1.051
+    - 1.011
+    - 21.6
+    - 9.8
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - '3rd Place: Amber European Beer - Virginia Beer Blitz 2017'
+    - 'no'
+  - - 64
+    - Oatmeal Stout
+    - 2016-10-29
+    - 2016-11-10
+    - 1.055
+    - 1.018
+    - 30.4
+    - 36.0
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'no'
+  - - 65
+    - Equinox Pale Ale
+    - 2016-11-12
+    - 2016-12-04
+    - 1.051
+    - 1.007
+    - 36.4
+    - 5.5
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - Excellent light colored golden pale ale
+    - '2nd Place: American Pale Ale - Virginia Beer Blitz 2017'
+    - 'no'
+  - - 66
+    - Czech style Pilsner
+    - 2016-11-20
+    - 2016-12-17
+    - 1.051
+    - 1.004
+    - 29.0
+    - 3.9
+    - 5.0
+    - 0
+    - 'no'
+    - Need to back off on the pilsner malt a bit as the Avanguard malt efficiency
+      is high and this should be between 4%-5% ABV
+    - Smooth crisp golden pilsner with subtle hop aroma and flavor
+    - ''
+    - 'no'
+  - - 67
+    - Boomslang IPA
+    - 2017-01-02
+    - 2017-01-19
+    - 1.06
+    - 1.01
+    - 61.7
+    - 5.5
+    - 5.0
+    - 0
+    - 'no'
+    - Beer color was a cloudy golden color which was not very attractive - hop flavor
+      was very muddled which too much going on.  Would not brew this again.
+    - ''
+    - ''
+    - 'no'
+  - - 68
+    - Equinox Pale Ale II
+    - 2017-01-16
+    - 2017-02-04
+    - 1.052
+    - 1.008
+    - 36.0
+    - 5.7
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - '2nd Place: American Pale Ale - Hop Blossom 2017'
+    - 'no'
+  - - 69
+    - Vienna Lager II
+    - 2017-01-22
+    - 2017-02-18
+    - 1.05
+    - 1.011
+    - 22.0
+    - 9.8
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'no'
+  - - 70
+    - Taddy Porter
+    - 2017-02-20
+    - 2017-03-08
+    - 1.049
+    - 1.008
+    - 24.9
+    - 24.4
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'no'
+  - - 71
+    - Czech Pilsner II
+    - 2017-03-18
+    - 2017-04-08
+    - 1.043
+    - 1.004
+    - 29.0
+    - 3.9
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - '1st Place: Pale European Bitter - Hop Blossom 2017'
+    - 'no'
+  - - 72
+    - Amarillo Saison
+    - 2017-04-09
+    - 2017-05-04
+    - 1.057
+    - 1.008
+    - 45.5
+    - 5.5
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'no'
+  - - 73
+    - Classic Saison
+    - 2017-05-09
+    - 2017-05-29
+    - 1.053
+    - 1.004
+    - 29.4
+    - 4.3
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'no'
+  - - 74
+    - Kolsch
+    - 2017-07-17
+    - 2017-08-13
+    - 1.051
+    - 1.009
+    - 25.0
+    - 3.0
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'yes'
+  - - 75
+    - Oatmeal Stout
+    - 2017-08-20
+    - 2017-09-04
+    - 1.049
+    - 1.013
+    - 34.0
+    - 26.0
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'yes'
+  - - 76
+    - Mango Hefeweizen
+    - 2017-08-27
+    - 2017-09-16
+    - 1.052
+    - 1.009
+    - 11.0
+    - 3.2
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'yes'
+  - - 77
+    - All-In Vienna Lager
+    - 2017-09-10
+    - 2017-10-17
+    - 1.048
+    - 1.011
+    - 25.1
+    - 10.1
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'yes'
+  - - 78
+    - Imperial Vanilla Porter
+    - 2017-10-22
+    - 2017-11-16
+    - 1.081
+    - 1.016
+    - 35.0
+    - 41.0
+    - 5.0
+    - 0
+    - 'no'
+    - ''
+    - ''
+    - ''
+    - 'yes'
