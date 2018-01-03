@@ -1,0 +1,81 @@
+<%= form_for(@batch) do |b| %>
+  <%= render 'shared/error_messages' %>
+  <table id="batch">
+    <tr>
+      <td><%= b.label :id, "Batch #" %></td>
+      <td><%= b.text_field :id, :readonly => true %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :name %></td>
+      <td><%= b.text_field :name %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :brew_date, "Brew Date" %></td>
+      <td><%= b.text_field :brew_date %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :bottle_date, "Bottle Date" %></td>
+      <td><%= b.text_field :bottle_date %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :age %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><%= b.label :og, "OG" %></td>
+      <td><%= b.text_field :og %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :fg, "FG" %></td>
+      <td><%= b.text_field :fg %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :abv, "ABV" %></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><%= b.label :ibu, "IBU" %></td>
+      <td><%= b.text_field :ibu %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :srm, "SRM" %></td>
+      <td><%= b.text_field :srm %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :volume %></td>
+      <td><%= b.text_field :volume %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :bottles %></td>
+      <td><%= b.text_field :bottles %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :bottle_conditioned, "Bottle Coonditioned" %></td>
+      <td><%= b.text_field :bottle_conditioned %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :notes %></td>
+      <td><%= b.text_area :notes, size: "60x8" %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :description %></td>
+      <td><%= b.text_area :description, size: "60x8"  %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :awards %></td>
+      <td><%= b.text_area :awards, size: "60x8"  %></td>
+    </tr>
+    <tr>
+      <td><%= b.label :ontap, "On Tap" %></td>
+      <td><%= b.text_field :ontap %></td>
+    </tr>
+  </table>
+  <table>
+  <tr>
+    <td>
+      </br>
+      <%= b.submit %>
+    </td>
+  </tr> 
+  </table>  
+<% end %>

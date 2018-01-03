@@ -7,6 +7,29 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <table width="100%">
+      <tr>
+        <td>
+          <div class="banner">
+          <h1>Buehler's Best</h1>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="topnav" id="myTopnav">
+          <%= get_navlink("/", "home", "show", "HOME") %> 
+          <%= get_navlink("/batches", "batches", "index", "BATCHES") %> 
+          <%= get_navlink("/ontap", "batches", "ontap", "ON TAP") %> 
+          <%= get_navlink("/awards", "batches", "awards", "AWARDS") %> 
+          <%= get_navlink("/login", "batches", "show", "LOGIN") %> 
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </header> 
 
 <%= yield %>
 

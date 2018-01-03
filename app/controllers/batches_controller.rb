@@ -8,6 +8,20 @@ class BatchesController < ApplicationController
     @batch = Batch.find(params[:id])
   end
 
+  def edit
+    @batch = Batch.find(params[:id])
+  end
+
+  def new
+    @batch = Batch.new
+  end
+
+  def update
+    @batch = Batch.find(params[:id])
+    @batch.update_attributes(batch_params)
+    redirect_to @batch
+  end
+
   def ontap
     @batches = Batch.where("ontap <> 'no'")
   end
@@ -23,6 +37,10 @@ class BatchesController < ApplicationController
   
   def sort_direction
     %w[asc desc].include?(params[:direction]) ?  params[:direction] : "asc"
+  end
+
+  def batch_params
+    params.require(:batch).permit(:name, :brew_date, :bottle_date, :og, :fg, :ibu, :srm, :volume, :bottles, :bottle_conditioned, :notes, :description, :awards, :ontap)
   end
 
 end
