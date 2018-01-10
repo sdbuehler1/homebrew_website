@@ -10,6 +10,19 @@
   <header>
     <table width="100%">
       <tr>
+        <td> 
+          <div id="user_header" class="login">
+          <p>
+            <% if current_user %>
+              Logged in as <%= current_user.email %>.
+              <%= link_to "Log Out", logout_path %>
+            <% else %>
+              <%= link_to "Log In", login_path %>
+            <% end %>
+          </p> 
+          </div>
+        </td>
+      <tr>
         <td>
           <div class="banner">
           <h1>Buehler's Best</h1>
@@ -23,11 +36,18 @@
           <%= get_navlink("/batches", "batches", "index", "BATCHES") %> 
           <%= get_navlink("/ontap", "batches", "ontap", "ON TAP") %> 
           <%= get_navlink("/awards", "batches", "awards", "AWARDS") %> 
-          <%= get_navlink("/login", "batches", "show", "LOGIN") %> 
+          <%= get_navlink("/batches/new", "batches", "new", "CREATE") %> 
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
           </div>
         </td>
       </tr>
+      <tr>
+        <td>
+          <% flash.each do |message_type, message| %>
+          <div class="alert alert-<%= message_type %>"><%= message %></div>
+          <% end %>
+        </td>
+      </tr> 
     </table>
   </header> 
 

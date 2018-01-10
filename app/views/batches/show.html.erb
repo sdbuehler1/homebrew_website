@@ -9,11 +9,11 @@
   </tr>
   <tr>
     <td>Brew Date</td>
-    <td><%= @batch.brew_date.strftime("%m/%d/%y") %></td>
+    <td><%= format_date(@batch.brew_date) %></td>
   </tr>
   <tr>    
     <td>Bottle Date</td>
-    <td><%= @batch.bottle_date.strftime("%m/%d/%y") %></td>
+    <td><%= format_date(@batch.bottle_date) %></td>
   </tr>
   <tr> 
     <td>Age (Weeks)</td>
@@ -69,5 +69,5 @@
   </tr>
 </table>
 </br>
-<%= link_to 'Edit', edit_batch_path(@batch) %>
+<%= button_to 'Edit', edit_batch_path(@batch), method: :get %>
 

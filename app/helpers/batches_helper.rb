@@ -24,5 +24,17 @@ module BatchesHelper
     return age.to_i
 
   end
+ 
+  def format_date(date_val)
+
+    if date_val.nil?
+       date_str = ""
+    else
+       date_str = date_val.strftime("%m/%d/%y")
+    end
+
+    return date_str
+ 
+  end
 
 end

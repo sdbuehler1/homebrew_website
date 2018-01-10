@@ -1,6 +1,14 @@
 // Place all the styles related to the menu controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/* login header */
+.login p {
+   text-align: right;
+   padding-right: 50px;
+}
+
  /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -35,10 +43,10 @@
     display: none;
 } 
 /* Set the page banner properties */
-h1 {
+.banner h1 {
     text-align: center;
     color: #008cba;
-    font-size: 48px;
+    font-size: 42px;
 }
 
 /* Set the main image properties */

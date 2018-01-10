@@ -1,25 +1,24 @@
 <%= form_for(@batch) do |b| %>
-  <%= render 'shared/error_messages' %>
   <table id="batch">
     <tr>
       <td><%= b.label :id, "Batch #" %></td>
-      <td><%= b.text_field :id, :readonly => true %></td>
+      <td><%= @batch.id %></td>
     </tr>
     <tr>
       <td><%= b.label :name %></td>
-      <td><%= b.text_field :name %></td>
+      <td><%= b.text_field :name, autofocus: true %></td>
     </tr>
     <tr>
       <td><%= b.label :brew_date, "Brew Date" %></td>
-      <td><%= b.text_field :brew_date %></td>
+      <td><%= b.date_select :brew_date, default: Date.today, use_two_digit_numbers: true %></td>
     </tr>
     <tr>
       <td><%= b.label :bottle_date, "Bottle Date" %></td>
-      <td><%= b.text_field :bottle_date %></td>
+      <td><%= b.date_select :bottle_date, use_two_digit_numbers: true, include_blank: true %></td>
     </tr>
     <tr>
-      <td><%= b.label :age %></td>
-      <td></td>
+      <td><%= b.label :age, "Age (Weeks)" %></td>
+      <td><%= get_age(@batch.bottle_date) %></td>
     </tr>
     <tr>
       <td><%= b.label :og, "OG" %></td>
@@ -31,7 +30,7 @@
     </tr>
     <tr>
       <td><%= b.label :abv, "ABV" %></td>
-      <td></td>
+      <td><%= get_abv(@batch.og, @batch.fg) %>%</td>
     </tr>
     <tr>
       <td><%= b.label :ibu, "IBU" %></td>
@@ -42,7 +41,7 @@
       <td><%= b.text_field :srm %></td>
     </tr>
     <tr>
-      <td><%= b.label :volume %></td>
+      <td><%= b.label :volume, "Volume (Gallons)" %></td>
       <td><%= b.text_field :volume %></td>
     </tr>
     <tr>
@@ -50,8 +49,13 @@
       <td><%= b.text_field :bottles %></td>
     </tr>
     <tr>
-      <td><%= b.label :bottle_conditioned, "Bottle Coonditioned" %></td>
-      <td><%= b.text_field :bottle_conditioned %></td>
+      <td><%= b.label :bottle_conditioned, "Bottle Conditioned" %></td>
+      <td>
+          <%= b.radio_button :bottle_conditioned, 'no' %>
+          <%= b.label :bottle_conditioned, 'No', :value => 'no' %>
+          <%= b.radio_button :bottle_conditioned, 'yes' %>
+          <%= b.label :bottle_conditioned, 'Yes', :value => 'yes' %>
+      </td>
     </tr>
     <tr>
       <td><%= b.label :notes %></td>
@@ -67,7 +71,14 @@
     </tr>
     <tr>
       <td><%= b.label :ontap, "On Tap" %></td>
-      <td><%= b.text_field :ontap %></td>
+      <td>
+          <%= b.radio_button :ontap, 'no' %>
+          <%= b.label :ontap, 'No', :value => 'no' %>
+          <%= b.radio_button :ontap, 'coming soon' %>
+          <%= b.label :ontap, 'Coming Soon', :value => 'coming soon' %>
+          <%= b.radio_button :ontap, 'yes' %>
+          <%= b.label :ontap, 'Yes', :value => 'yes' %>
+      </td>
     </tr>
   </table>
   <table>
@@ -75,6 +86,10 @@
     <td>
       </br>
       <%= b.submit %>
+    </td>
+    <td>
+      </br>
+      <%= b.submit "cancel", :value => 'Cancel', data: { confirm: 'Are you sure you want to cancel?' } %>
     </td>
   </tr> 
   </table>  

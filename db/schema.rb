@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171226210013) do
+ActiveRecord::Schema.define(version: 20180107133210) do
 
   create_table "batches", force: true do |t|
     t.string  "name",               limit: 50
@@ -28,6 +28,13 @@ ActiveRecord::Schema.define(version: 20171226210013) do
     t.string  "description",        limit: 250
     t.string  "awards",             limit: 250
     t.string  "ontap",              limit: 11,  default: "no"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "email"
+    t.string   "password_digest"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

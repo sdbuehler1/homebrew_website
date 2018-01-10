@@ -18,8 +18,8 @@
     <tr onclick="location.href = 'batches/<%= batch.id %>'">
       <td><%= batch.id %></td>
       <td><%= batch.name %></td>
-      <td><%= batch.brew_date.strftime("%m/%d/%y") %></td>
-      <td><%= batch.bottle_date.strftime("%m/%d/%y") %></td>
+      <td><%= format_date(batch.brew_date) %></td>
+      <td><%= format_date(batch.bottle_date) %></td>
       <td><%= get_age(batch.bottle_date) %></td>
       <td><%= batch.og %></td>
       <td><%= batch.fg %></td>

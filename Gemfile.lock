@@ -30,6 +30,7 @@ GEM
     arel (5.0.1.20140414130214)
     autoprefixer-rails (7.2.3)
       execjs
+    bcrypt (3.1.11)
     bootstrap-sass (3.3.5)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
@@ -55,7 +56,6 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.6)
     libv8 (3.16.14.19)
-    libv8 (3.16.14.19-x86_64-linux)
     mail (2.5.5)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -129,6 +129,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)

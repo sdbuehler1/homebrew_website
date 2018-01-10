@@ -1,4 +1,6 @@
 class BatchesController < ApplicationController
+  before_filter :authorize, :only => [:create, :edit, :new,  :update]
+  before_filter :check_for_cancel, :only => [:create, :update]
   helper_method :sort_column, :sort_direction
   def index
     @batches = Batch.order(sort_column + ' ' + sort_direction)
@@ -16,9 +18,30 @@ class BatchesController < ApplicationController
     @batch = Batch.new
   end
 
+  def create
+    @batch = Batch.create(batch_params)
+    if @batch.save
+        flash[:notice] = "Batch successfully created"
+        redirect_to @batch
+    end
+  end
+
+  def check_for_cancel
+    if params[:commit] == "Cancel"
+      flash[:error] = "Update cancelled"
+      if params[:id].nil?
+        redirect_to "/"
+      else
+        @batch = Batch.find(params[:id]) 	
+        redirect_to @batch
+      end
+    end
+  end
+
   def update
     @batch = Batch.find(params[:id])
     @batch.update_attributes(batch_params)
+    flash[:notice] = "Batch successfully saved"
     redirect_to @batch
   end
 
