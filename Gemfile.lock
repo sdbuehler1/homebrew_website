@@ -63,6 +63,9 @@ GEM
     minitest (5.10.3)
     multi_json (1.12.2)
     mysql2 (0.3.21)
+    passenger (5.1.12)
+      rack
+      rake (>= 0.8.1)
     polyglot (0.3.5)
     rack (1.5.5)
     rack-test (0.6.3)
@@ -135,6 +138,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mysql2 (~> 0.3.20)
+  passenger
   rails (= 4.1.0)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
