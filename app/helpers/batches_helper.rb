@@ -12,16 +12,19 @@ module BatchesHelper
 
   end
 
-  def get_age(bottle_date)
+  def get_age(batch)
 
-    if bottle_date.nil?
-      age = 0.0
+    if batch.ontap == "no"
+      return ""
     else
-      today = DateTime.now
-      age = ( today - bottle_date ) / 7
-    end
-
-    return age.to_i
+      if batch.bottle_date.nil?
+        age = 0.0
+      else
+        today = DateTime.now
+        age = ( today - batch.bottle_date ) / 7
+      end
+      return age.to_i
+    end 
 
   end
  

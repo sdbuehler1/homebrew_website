@@ -20,7 +20,7 @@
       <td><%= batch.name %></td>
       <td><%= format_date(batch.brew_date) %></td>
       <td><%= format_date(batch.bottle_date) %></td>
-      <td><%= get_age(batch.bottle_date) %></td>
+      <td><%= get_age(batch) %></td>
       <td><%= batch.og %></td>
       <td><%= batch.fg %></td>
       <td><%= get_abv(batch.og, batch.fg) %>%</td>
